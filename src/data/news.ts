@@ -8,14 +8,10 @@ export interface News {
 export const newsData: News[] = [
   {
     date: "2025-09-12",
-    title: "I am now so-called a Ph.D. Zero Student!",
-    description: "Thankfully, I got recommended for admission and got a chance to be supervised by Prof. Xiaokang Yang and Prof. Yao Mu.",
+    title: "I am now so-called a Master Zero Student!",
+    description: "Thankfully, I got recommended for admission and I am now busy working on my Bachelor Thesis.",
   },
-  {
-    date: "2025-08-23",
-    title: "TriFusion Organizer",
-    description: "Our proposed workshop in SIGGRAPH ASIA, TriFusion have been approved by the committee, I take the role of the organizer and the student leader, see you in HongKong this December!",
-  },
+
   // If you don't want to show news, just make the array empty.
   /*{
     date: "March 2024",

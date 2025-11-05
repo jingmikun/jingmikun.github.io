@@ -12,12 +12,12 @@ export const educationData: Education[] = [
   {
     year: "2022—2026",
     institution: "Shanghai Jiao Tong University",
-    degree: "Bachelor in Information Engineering",
+    degree: "Bachelor in Materials Science and Engineering",
   },
   {
     year: "From 2026",
     institution: "Shanghai Jiao Tong University",
-    degree: "Incoming Ph.D. Student",
-    advisor: "Prof. Xiaokang Yang & Prof. Yao Mu",
+    degree: "Incoming Master Student",
+    advisor: "Prof. Xu Yanling",
   },
 ];
