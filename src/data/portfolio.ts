@@ -10,13 +10,29 @@ export interface Portfolio {
 export const portfolioData: Portfolio[] = [
   // Example entry
   {
-    title: "Causal Discovery Framework",
+    title: "Paperlist for Embodied Foundation Model",
     description:
-      "A framework for discovering causal relationships in high-dimensional time series data using state-of-the-art machine learning techniques.",
-    technologies: ["Python", "PyTorch", "React"],
-    projectUrl: "https://project-demo.com",
+      "Curating and keep maintaining the awesome embodied foundation model work both from academic and industrial fields.",
+    projectUrl: "hhttps://vapour-x.cn/docs/foundation/paper-list/",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    codeUrl: "https://github.com/username/project",
+      "/images/paperlist.png",
+    codeUrl: "https://github.com/VapourX-ScaleLab/Embodied-Manipulation-Foundation-Model-Paper-List",
+  },
+  {
+    title: "VapourX Open Platform",
+    description:
+      "Me and my co-workers founded VapourX, and we have posted several blogs and academic activities on the platform. We are warmly welcoming anyone who want to make a change to the society.",
+    projectUrl: "https://vapour-x.cn",
+    imageUrl:
+      "/images/VapourXlogo.png",
+    codeUrl: "https://github.com/VapourX-ScaleLab/VapourX-ScaleLab.github.io",
+  },
+  {
+    title: "ScaleLab Newcomer Guide",
+    description:
+      "We build the guide for newcomer who want to join ScaleLab for research internship or further education!",
+    projectUrl: "https://scalelab-sjtu.github.io/start.html",
+    imageUrl:
+      "/images/guide.png",
   },
 ];

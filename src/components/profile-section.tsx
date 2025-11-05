@@ -6,6 +6,7 @@ import {
   Twitter,
   ArrowUpRight,
   GraduationCap,
+  Images,
 } from "lucide-react";
 import { AboutMe } from "@/data/aboutme";
 
@@ -71,6 +72,20 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
               <span className="tracking-wider uppercase">Blog</span>
+            </a>
+          )}
+          {aboutMe.galleryUrl && (
+            <a
+              href={aboutMe.galleryUrl}
+              className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Images
+                size={12}
+                className="group-hover:scale-110 transition-transform duration-300"
+              />
+              <span className="tracking-wider uppercase">Gallery</span>
             </a>
           )}
           {aboutMe.cvUrl && (

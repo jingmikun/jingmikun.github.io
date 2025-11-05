@@ -6,6 +6,7 @@ export interface AboutMe {
   email: string;
   imageUrl?: string;
   blogUrl?: string;
+  galleryUrl?: string;
   cvUrl?: string;
   googleScholarUrl?: string;
   twitterUsername?: string;
@@ -18,22 +19,21 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "ACondawayUNo \n Congsheng Xu",
+  title: "Incoming Ph.D. Student",
+  institution: "Shanghai Jiao Tong University",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "I'm a Senior Student in <a href='https://www.sjtu.edu.cn'>SJTU</a> as well as the <b>Incoming Ph.D. Student</b> of <a href='https://scalelab-sjtu.github.io'>ScaleLab, SJTU</a>, under supervision of <a href='https://icne.sjtu.edu.cn/info/1064/1078.htm'>Prof. Xiaokang Yang</a> and <a href='https://yaomarkmu.github.io'>Prof. Yao Mu</a> in intersection of Embodied AI and AIGC. \n Before that, I work firmly with <a href='https://daodaofr.github.io'>Prof. Yichao Yan</a> and <a href='https://liangxuy.github.io'>Ph.D. Liang Xu</a> at Metaverse Lab, SJTU. \n I recently focus on topics like <b>Visuo-tactile Manipulation</b>, <b>Dexterous Hands</b> and <b>World Model</b>, if you are interested in my research, please feel free to contact me! \n I am also the founder of <a href='https://vapour-x.cn'>VapourX</a>, a platform for AIGC and E-AI, now I am happy that friends from everywhere and different field join here, I hope I will make it better with core members, don't hesitate to contact me to join! \n I spend exciting time with my friends in <a href='https://emagen.ai'>Emagen</a>, anyone who is enthusiastic about changing the world, <b>this is the place to be!</b>",
+  email: "acondaway@sjtu.edu.cn",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "https://avatars.githubusercontent.com/u/115391544?v=4",
+  googleScholarUrl: "https://scholar.google.com/citations?user=PYFaxeoAAAAJ&hl=en",
+  githubUsername: "ACondaway",
+  linkedinUsername: "congsheng-xu-85944036b",
+  blogUrl: "https://vapour-x.cn/authors/acondaway/",
+  galleryUrl: "/gallery",
+  institutionUrl: "https://www.sjtu.edu.cn",
   // altName: "",
   // secretDescription: "I like dogs.",
 };
